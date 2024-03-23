@@ -9,9 +9,12 @@
         <module name="DrawShapes" />
         <module name="DrawLines" />
         <module name="DrawRandomLines" />
-        <module name="DrawSmiley" />
+        <module name="DrawAndFill" />
         <module name="DrawRainbow" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DrawSmiley" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
