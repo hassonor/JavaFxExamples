@@ -12,6 +12,13 @@ public class DrawLinesController {
     private Canvas canvas; // used to get the GraphicsContext
 
     @FXML
+    void drawXButtonPressed(ActionEvent event){
+        GraphicsContext gc = canvas.getGraphicsContext2D();
+        gc.strokeLine(0,0,canvas.getWidth(), canvas.getHeight());
+        gc.strokeLine(canvas.getWidth(), 0, 0, canvas.getHeight());
+    }
+
+    @FXML
     void drawLinesButtonPressed(ActionEvent event) {
         GraphicsContext gc = canvas.getGraphicsContext2D();
 

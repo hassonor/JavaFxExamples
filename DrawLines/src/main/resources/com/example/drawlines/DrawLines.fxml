@@ -16,6 +16,9 @@
               <items>
                 <Button mnemonicParsing="false" onAction="#drawLinesButtonPressed" text="Draw Lines" />
               </items>
+                <items>
+                    <Button mnemonicParsing="false" onAction="#drawXButtonPressed" text="Draw X" />
+                </items>
             </ToolBar>
          </top>
          <center>
