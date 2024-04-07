@@ -5,13 +5,18 @@
 <?import javafx.scene.control.ToolBar?>
 <?import javafx.scene.layout.BorderPane?>
 
+<?import javafx.scene.control.Label?>
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
             xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.example.drawrandomlines.DrawRandomLinesController">
+            fx:controller="com.example.drawrandomshapes.DrawRandomShapesController">
     <top>
         <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <items>
                 <Button mnemonicParsing="false" onAction="#drawLinesButtonPressed" text="Draw Random Lines"/>
+                <Button mnemonicParsing="false" onAction="#drawOvalsButtonPressed" text="Draw Random Ovals"/>
+                <Button mnemonicParsing="false" onAction="#drawRectanglesButtonPressed" text="Draw Random Rectangles"/>
+                <Button mnemonicParsing="false" onAction="#clearCanvasButtonPressed" text="Clear Canvas"/>
+                <Label fx:id="lineCountLabel" text="Lines: 0"/>
             </items>
         </ToolBar>
     </top>

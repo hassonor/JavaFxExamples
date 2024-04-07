@@ -1,9 +1,9 @@
-package com.example.drawrandomlines;
+package com.example.drawrandomshapes;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
-public class MyLine {
+public class MyLine extends Shape {
     private double x1;
     private double y1;
     private double x2;
@@ -21,6 +21,7 @@ public class MyLine {
     }
 
     // draw the line in the specified color
+    @Override
     public void draw(GraphicsContext gc) {
         gc.setStroke(strokeColor);
         gc.strokeLine(x1, y1, x2, y2);

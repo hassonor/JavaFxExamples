@@ -7,11 +7,13 @@
     <file url="file://$PROJECT_DIR$/DrawLines/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DrawRainbow/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DrawRainbow/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/DrawRandomLines/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/DrawRandomLines/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DrawRandomShapes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DrawRandomShapes/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DrawShapes/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DrawShapes/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DrawSmiley/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DrawSmiley/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Question1_test/TestMore/DrawLinesArray/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Question1_test/TestMore/DrawLinesArray/src/main/resources" charset="UTF-8" />
   </component>
 </project>

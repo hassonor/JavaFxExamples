@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>DrawRandomLines</artifactId>
+    <artifactId>DrawRandomShapes</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>DrawRandomLines</name>
 
@@ -38,6 +38,12 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>17.0.6</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -60,7 +66,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.drawrandomlines/com.example.drawrandomlines.DrawRandomLines
+                            <mainClass>com.example.drawrandomlines/com.example.drawrandomshapes.DrawRandomShapes
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

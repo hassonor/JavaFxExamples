@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DrawRandomShapes" />
         <module name="DrawShapes" />
         <module name="DrawLines" />
-        <module name="DrawRandomLines" />
-        <module name="DrawAndFill" />
+        <module name="DrawLinesArray" />
         <module name="DrawRainbow" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DrawAndFill" target="11" />
       <module name="DrawSmiley" target="11" />
     </bytecodeTargetLevel>
   </component>
