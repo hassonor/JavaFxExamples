@@ -16,6 +16,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../Question1_test/TestMore/DrawLinesArray/pom.xml" />
         <option value="$PROJECT_DIR$/../Question1_test/TestMore/TipCalculator/pom.xml" />
       </set>
     </option>

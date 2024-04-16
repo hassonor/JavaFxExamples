@@ -8,12 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DrawShapes" />
         <module name="DrawLines" />
-        <module name="DrawLinesArray" />
         <module name="DrawRainbow" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DrawAndFill" target="11" />
+      <module name="DrawLinesArray" target="11" />
       <module name="DrawRandomShapes" target="11" />
       <module name="DrawSmiley" target="11" />
       <module name="TipCalculator" target="11" />
