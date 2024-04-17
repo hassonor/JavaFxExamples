@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WordGameController">
+   <children>
+      <GridPane fx:id="grid" alignment="CENTER" focusTraversable="true" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="400.0">
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <TextField fx:id="textF" maxWidth="300.0" onKeyPressed="#keyPressed">
+         <VBox.margin>
+            <Insets top="70.0" />
+         </VBox.margin>
+      </TextField>
+   </children>
+</VBox>
