@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" spacing="20" xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fibonaccinumbers.FibonacciNumbersController">
+    <children>
+        <TitledPane animated="false" text="With Fibonacci Task" collapsible="false">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="580.0">
+                    <children>
+                        <Label layoutX="40.0" layoutY="30.0" text="Get Fibonacci of:" style="-fx-font-size: 14px;"/>
+                        <TextField fx:id="numberTextField" layoutX="180.0" layoutY="26.0" prefWidth="200.0"/>
+                        <Button fx:id="goButton" layoutX="400.0" layoutY="25.0" mnemonicParsing="false"
+                                onAction="#onPressedGoButton"
+                                prefHeight="25.0" prefWidth="100.0" text="Go" style="-fx-font-size: 14px;"/>
+                        <Label fx:id="messageLabel" layoutX="40.0" layoutY="70.0" style="-fx-font-size: 14px;"/>
+                        <Label fx:id="fibonacciLabel" layoutX="180.0" layoutY="70.0" style="-fx-font-size: 14px;"/>
+                    </children>
+                </AnchorPane>
+            </content>
+        </TitledPane>
+        <TitledPane animated="false" text="Without Fibonacci Task" collapsible="false">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="580.0">
+                    <children>
+                        <Label fx:id="nthLabel" layoutX="40.0" layoutY="30.0" prefHeight="17.0" prefWidth="200.0"
+                               style="-fx-font-size: 14px;"/>
+                        <Label fx:id="nthFibonacciLabel" layoutX="250.0" layoutY="30.0" prefHeight="19.0"
+                               prefWidth="200.0"
+                               style="-fx-font-size: 14px;"/>
+                        <Button layoutX="40.0" layoutY="70.0" mnemonicParsing="false" onAction="#nextNumberOnPress"
+                                text="Next Number" prefHeight="25.0" prefWidth="120.0" style="-fx-font-size: 14px;"/>
+                    </children>
+                </AnchorPane>
+            </content>
+        </TitledPane>
+    </children>
+</VBox>
